@@ -1,0 +1,89 @@
+*{
+    padding: 00px;
+    margin: 00px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.cv{
+    width: 800px;
+    height: auto;
+    background-color: cornflowerblue;
+    display: flex;
+    margin: 50px auto;
+}
+.cv-gauche{
+    width: 280px;
+    background: cyan;
+}
+.cv-droit{
+    width: 520px;
+    background-color: blue;
+}
+.cv-gauche .cv-profi img{
+    width: 100;
+    height: 150px;
+    border: 5px;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.cv-gauche p img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.cv-droit h4{
+color: yellow;
+font-size: 18px;
+font-family: 700px;
+text-transform: uppercase;
+margin-left: 10px;
+}
+.cv-droit P{
+    color: white;
+    margin-left: 30px;
+}
+.bande{
+    width: 350px;
+    height: 20px;
+    background-color:black;
+    margin-left: 10px;
+}
+.cv-gauche img{
+    border-bottom:2px solid white;
+    margin-bottom:0px;
+}
+
+.A{
+    border-bottom:2px solid white;
+
+    margin-right: 10px;
+    min-height: 80px;
+    margin-bottom: 20px;
+}
+.bold{
+color: black;
+font-size: 18px;
+font-family: 700px;
+text-transform: uppercase;
+}
+.cv-gauche p{
+    margin-left: 10px;
+}
+.bold{
+    color: yellow;
+    background-color: black;
+    left: 300px;
+    width: 150px;
+}
+@media screen  (max-width : 600px){
+
+    p {
+
+        font-size : 4em;
+    }
+    
+}
